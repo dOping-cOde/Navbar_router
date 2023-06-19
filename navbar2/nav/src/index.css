@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: rgb(104, 95, 95);
+  padding: 2rem;
+}
+
+.item{
+  color: aqua;
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.title{
+  font-size: 3rem;
+  color: white;
+}
+.active{
+  color: yellow;
+}
+
+a{
+  text-decoration: none;
+}
